@@ -1,0 +1,76 @@
+﻿<Properties StartupConfiguration="{C7650956-B9C0-479C-A3E1-196796E9E158}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="bookstore/Views/Book/Delete.cshtml">
+    <Files>
+      <File FileName="bookstore/Controllers/BookController.cs" Line="38" Column="22" />
+      <File FileName="bookstore/Views/Book/Edit.cshtml" />
+      <File FileName="bookstore/ViewModels/BookAuthorViewModel.cs" />
+      <File FileName="bookstore/appsettings.json" />
+      <File FileName="bookstore/Migrations/20201211025631_CreateDB.cs" />
+      <File FileName="bookstore/Models/Repositories/IBookRepository.cs" />
+      <File FileName="bookstore/Models/BookStoreDbContext.cs" />
+      <File FileName="bookstore/Models/Repositories/BookDbRepository.cs" />
+      <File FileName="bookstore/Models/Repositories/BookRepository.cs" />
+      <File FileName="bookstore/Models/Repositories/AuthorRepository.cs" />
+      <File FileName="bookstore/Models/Repositories/AuthorDbRepository.cs" />
+      <File FileName="bookstore/Views/_ViewStart.cshtml" />
+      <File FileName="bookstore/Views/_ViewImports.cshtml" />
+      <File FileName="bookstore/Views/Shared/_Layout.cshtml" />
+      <File FileName="bookstore/Controllers/AuthorController.cs" />
+      <File FileName="bookstore/Views/Book/Create.cshtml" />
+      <File FileName="bookstore/Program.cs" />
+      <File FileName="bookstore/Views/Shared/_Layout2.cshtml" />
+      <File FileName="bookstore/Views/Author/Create.cshtml" />
+      <File FileName="bookstore/Views/Author/Delete.cshtml" />
+      <File FileName="bookstore/Views/Author/Details.cshtml" />
+      <File FileName="bookstore/Views/Author/Edit.cshtml" />
+      <File FileName="bookstore/Views/Author/Index.cshtml" />
+      <File FileName="bookstore/Properties/launchSettings.json" />
+      <File FileName="bookstore/Startup.cs" />
+      <File FileName="bookstore/Install-Package" />
+      <File FileName="bookstore/Views/Book/Index.cshtml" />
+      <File FileName="bookstore/Models/Author.cs" />
+      <File FileName="bookstore/Views/Book/Delete.cshtml" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="bookstore" expanded="True">
+            <Node name="bookstore" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Author" expanded="True" />
+                <Node name="Book" expanded="True">
+                  <Node name="Delete.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

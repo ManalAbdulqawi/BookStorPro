@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>cba9e63b-73df-4b60-9222-70cc85428df2</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Models\Repositories\" />
+    <Folder Include="Views\Author\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Book\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="wwwroot\Uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
+    <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+  </ItemGroup>
+</Project>
